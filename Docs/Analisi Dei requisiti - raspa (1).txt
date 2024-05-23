@@ -1,0 +1,39 @@
+﻿ANALISI DEI REQUISITI
+
+
+ES 1
+Progettare un software che permetta ad un utente di poter gestire la propria rubrica telefonica, permettendo, tramite l’inserimento di un’apposita password, di visualizzare anche eventuali contatti nascosti. 
+Tramite un altro metodo appositamente progettato consente di tornare alla situazione iniziale.
+
+
+Attenzione: 
+
+
+   Un singolo contatto nascosto può essere reso sempre visibile e viceversa.
+   Occorrerà gestire la lista delle ultime chiamate, in modo che possa essere coerente con quanto sopra richiesto
+   Scrivere il codice (java-like) di una parte saliente del software, motivandone la scelta.
+
+
+
+
+ES 2
+Dato un insieme disordinato (della dimensione minima 10 e massima 11 elementi) di numeri interi positivi non ripetuti (valore minimo 1, valore massimo 30), occorre poter ordinare, in ordine crescente, i soli numeri PARI, lasciando gli eventuali dispari nella loro posizione originaria, lasciando anche l'ultimo valore (pari o dispari non importa) nella propria posizione originaria.
+
+
+    
+
+
+
+
+
+
+•     Esempio di input:    9 4 6 5 2 10 7 1 8 
+•     Esempio di output:  9 2 4 5 6 7 1 10 8
+•     Esempio di input:    6 2 4 8 12 14 16 10
+•     Esempio di output:  2 4 6 8 10 12 14 10
+•    Esempio di input:    9 7 5 3 1 11 13 15 17 
+•     Esempio di output:  9 7 5 3 1 11 13 15 17         
+
+
+MODIFICHE
+Non ho apportato nessuna modifica rispetto alla consegna, L’unica cosa è appunto che ho fatto un unico file per tutto

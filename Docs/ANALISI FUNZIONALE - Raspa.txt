@@ -1,0 +1,9 @@
+﻿ANALISI FUNZIONALE
+
+
+ES 1
+All’inizio del programma viene visualizzato un menù in cui si mostrano 4 opzioni fra cui scegliere, una voce è Inserimento contatto dove si può inserire un nuovo contatto in rubrica, la seconda voce è visualizza contatti ovvero appunto la visualizzazione dei contatti nella rubrica, invece la 3 voce è quella per visionare i contatti nascosti, prima di vederli però c'è bisogno chiaramente di una password prima, se inserita errata si verrà riportati al menu principale e non potrete visionare i contatti nascosti, invece se inserita giusta si verrà portati al menu principale ma con la possibilità di vedere i contatti nascosti, poi si avrà la 4 voce dove i avrà un metodo che permette di cambiare la visibilità del contatto, se renderlo visibile oppure nascosto
+
+
+ES 2 
+Il programma inizia con un inserimento di numeri, esattamente 10 perchè è questa la lunghezza dell’array che abbiamo creato, e dopo aver inserito tutti questi numeri ci sarà un algoritmo che li ordinerà e poi verrà messo a schermo il risultato.

@@ -1,0 +1,46 @@
+﻿ANALISI TECNICA
+
+
+ES 1
+Il mio programma è composto da:
+
+
+1. Main composto da
+   1. Un ciclo do-While per la ripetizione del programma
+   2. Uno switch case che regola le scelte sul metodo menù
+2. Metodo VisualizzaCon( )
+   1. Metodo per la visualizzazione dei contatti nel telefono
+   2. Formato da un ciclo for con un if annidato che mi permette di stampare solo gli utenti visibili se non si ha inserito la password corretta per i contatti nascosti e invece se si ha inserito la password corretta si possono vedere anche i contatti nascosti. 
+3. Metodo ContattiNascosti( ) 
+   1. Questo metodo permette di visualizzare i contatti nascosti nel telefono
+   2. Prima di accedervi bisogna inserire una password di sicurezza
+   3. Se inserita giusta viene riportati al menu di prima però con la modifica che ora con la visualizzazione dei contatti si potranno vedere anche le informazioni dei contatti nascosti, altrimenti verrà mostrata a schermo la scritta password errata e si verrà riportati al menu principale senza modifiche
+4. Metodo Inserimento( )
+   1. Metodo che fa inserire un contatto e tutti i suoi attributi in rubrica
+5. Metodo VisibilitàContatto( )
+   1. Questo metodo permette all'utilizzatore di modificare la visibilità di un contatto, ovvero se renderlo nascosto oppure no
+   2. Il metodo parte con una visualizzazione di tutti i contatti e la richiesta di quanti contatti si vogliono rendere nascosti 
+   3. Dopo aver inserito il numero di quanti contatti si vogliono nascondere avviene la richiesta dei nomi  e dei cognomi dei contatti da nascondere 
+
+
+
+
+
+
+ES 2 
+Il mio programma è composto da 
+
+
+1. Il main dove all’interno troviamo
+   1. La dichiarazione delle variabili
+   2. Gli unici due metodi dei 4 esistenti richiamati nel main, ovvero Inserimento e Ordinamento
+2. Metodo Inserimento( )
+   1. Metodo formato da un unico ciclo for in cui viene richiesto l’inserimento dei 10 numeri da mettere nell’array
+3. Metodo Ordinamento( )
+   1. In questo metodo viene fatto il vero e proprio ordinamento dell’array tramite il bubble sort
+   2. Qui come prima cosa abbiamo il richiamo del metodo stampa che appunto ci stampa l’array, dopo abbiamo il processo di ordinamento con 2 cicli for che ordinano i valori nelle caselle dell’array
+   3. Infine si ha il richiamo del metodo StampaOr che ci stamperà l’array ordinato
+4. Metodo Stampa( )
+   1. Con questo metodo si stampa l’array non ordinato
+5. Metodo StampaOr( )
+   1. Con questo metodo si stampa l’array ordinato
